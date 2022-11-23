@@ -1,0 +1,151 @@
+body{
+    font-family:"montserrat" ;
+}
+
+#title{
+    color: white;
+    background-color: #ff4c68;
+   
+}
+
+h1{
+    
+    font-weight: bolder;
+   
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+h2{
+    font-weight: bold;
+    font-size: 3.5rem;
+    line-height: 1.5;
+
+}
+h3{
+    font-weight: bold;
+}
+p{
+    color:#8f8f8f;
+ margin-right: 25px;
+    
+}
+.container-fluid{
+    padding: 3% 15% 4%;
+}
+
+.navbar{
+    
+    padding-bottom: 4.5rem;
+  }
+  .navbar-item{
+    
+    padding:0 18px;
+  }
+.navbar-brand{
+  font-family: "ubuntu";
+  font-size: 1.8rem;
+ 
+}
+.download-button{
+    margin:  5% 3% 5% 0;
+}
+.box-1{
+   
+    text-align: center;
+    padding: 5% ;
+}
+.icon{
+    color:#ef8172; 
+    margin-bottom: 1rem; 
+}
+.icon:hover{
+    color:#efaba5;
+}
+#features{
+    padding: 5% 9% 5% 7%;
+}
+#testimonials{
+    background-color: #ef8172;
+   
+    text-align: center; 
+    color: white;
+}
+.testimonial-image{
+    width:10%;
+    border-radius: 100%;
+}
+ #press{
+    background-color: #ef8172; 
+    padding-bottom: 3%;
+    text-align: center;
+ }   
+ .press-img{
+    width:15%;
+    
+ }
+.carousel-item{
+    padding: 5% 9% 5% 7%;
+}
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+.box-2{
+    padding:2% 3%;
+}
+#features{
+    background-color:white;
+    z-index:1;
+    position: relative;
+   
+}
+.image{
+    transform: rotate(25deg);
+    height: 500px;
+    margin-left: 8rem;
+   right: 20%;
+    position: absolute;
+   
+}
+@media (max-width: 1023px){
+    #title{
+        text-align: center;
+    }
+    .image{
+        position: static;
+        transform: rotate(0);
+        margin: auto;
+       
+    }
+}
+#cta{
+    text-align: center;
+    color: white;
+    
+    background-color: #ff4c68;
+    height: 400px;
+
+}
+.cta-text{
+    color: azure;
+   text-align: center;
+    font-weight: bold;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    width: auto;
+    margin: 0% 15%  0% 15%;
+padding-top: 40px;
+}
+#footer{
+    height: 170px;
+    text-align: center;
+    
+}
+.handles{
+    padding: 50px 50px 20px 50px;
+  
+}
+i{
+    margin-right: 20px; 
+    
+}
